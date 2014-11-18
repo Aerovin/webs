@@ -129,7 +129,7 @@ function createPostSummary(A, z, u) {
     }];
     for (var s = 0; s < x.length; s++) {
         r += '<a target="_blank" title="Share to ' + x[s].name + '" class="' + x[s].name.replace(" ", "-")
-            .toLowerCase() + '" href="' + x[s].url + '"><i class="icon-' + x[s].name.replace(" ", "-")
+            .toLowerCase() + '" href="' + x[s].url + '"><i class="fa fa-' + x[s].name.replace(" ", "-")
             .toLowerCase() + '"></i></a>'
     }
     g = '<div class="socialpostshare">' + r + "</div>";
