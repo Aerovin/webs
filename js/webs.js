@@ -3421,7 +3421,7 @@ function pageNavi(a) {
                                 }];
                                 for (var J = 0; J < N.length; J++) {
                                     I += '<a target="_blank" title="Share to ' + N[J].name + '" class="' + N[J].name.replace(" ", "-")
-                                        .toLowerCase() + '" href="' + N[J].url + '"><i class="icon-' + N[J].name.replace(" ", "-")
+                                        .toLowerCase() + '" href="' + N[J].url + '"><i class="fa fa-' + N[J].name.replace(" ", "-")
                                         .toLowerCase() + '"></i></a>'
                                 }
                                 y = '<div class="socialpostshare">' + I + "</div>";
@@ -4298,7 +4298,7 @@ window.emoticonx = (function () {
             h = j.topText || "Click to see the code!",
             a = j.emoMessage || "To insert emoticon you must added at least one space before the code.";
         $(k)
-            .before('<span class="emobutton"><i class="icon-smile"></i> <b>Emoticon</b></span><div style="text-align:center" class="emoWrap"> :) :)) ;(( :-) =)) ;( ;-( :d :-d @-) :p :o :&gt;) (o) [-( :-? (p) :-s (m) 8-) :-t :-b  b-( :-# =p~ $-) (b) (f) x-) (k) (h) (c) cheer <br/><b>' + h + "</b><br/>" + a + "</div>");
+            .before('<span class="emobutton"><i class="fa fa-smile"></i> <b>Emoticon</b></span><div style="text-align:center" class="emoWrap"> :) :)) ;(( :-) =)) ;( ;-( :d :-d @-) :p :o :&gt;) (o) [-( :-? (p) :-s (m) 8-) :-t :-b  b-( :-# =p~ $-) (b) (f) x-) (k) (h) (c) cheer <br/><b>' + h + "</b><br/>" + a + "</div>");
         var i = function (c, d, e) {
             $(l)
                 .each(function () {
