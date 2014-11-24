@@ -10,7 +10,7 @@ var Alldefaultconfig = {
 	MoreText: "Load more posts",
     monthName: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],	
 	viewMoreText: "View More About",
-	BackupImage: "http://1.bp.blogspot.com/-htG7vy9vIAA/Tp0KrMUdoWI/AAAAAAAABAU/e7XkFtErqsU/s72-c/grey.gif", 
+	BackupImage: "http://cdn.aerovin.ga/img/grey.png", 
 	summaryLength:150,	
 	FirstImageSize:"s220-p",
 	ImageSize:"s70-p", 
